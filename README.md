@@ -28,9 +28,7 @@ postcss
 autoprefixer
 
 ⚙️ Setup & Build
-bash
-Copy
-Edit
+
 npm install
 npx tailwindcss -i ./src/input.css -o ./src/output.css --watch
 This compiles Tailwind styles from input.css and watches for changes in your HTML files.
